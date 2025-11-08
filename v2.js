@@ -23,9 +23,9 @@ overlay.style.opacity = "1";
 
 window.addEventListener("load", () => {
   setTimeout(() => {
-    overlay.style.transition = "opacity 1s ease";
+    overlay.style.transition = "opacity 0.5s ease";
     overlay.style.opacity = "0";
-    setTimeout(() => (overlay.style.display = "none"), 1000);
+    setTimeout(() => (overlay.style.display = "none"), 500);
   }, 300);
 });
 
